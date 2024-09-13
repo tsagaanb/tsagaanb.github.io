@@ -1,0 +1,186 @@
+/* global.css - Used by all pages */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #9086d2; 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 100px auto; 
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Quicksand, sans-serif;
+    align-self: center;
+}
+
+h1, h2, h4 {
+    color: #9086d2;
+    font-family: Quicksand, sans-serif;
+}
+
+p {
+    color:#9086d2;
+    font-size: 20px;
+    font-family: Quicksand, sans-serif;
+}
+
+div {
+    font-family: Quicksand, sans-serif;
+}
+
+li {
+    color:#9086d2;
+    font-size: 20px;
+    font-family: Quicksand, sans-serif;
+    margin: 20px;
+
+}
+
+/* Navigation Bar */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #87CEFA; 
+}
+
+/* Intro Page */
+
+.introtext {
+    color:#9086d2;
+    font-size: 20px;
+    font-family: Quicksand, sans-serif;
+    padding: 40px;
+}
+
+table, tr, td, th {
+    padding-top: 20px;
+}
+
+img {
+    border-style: dashed;
+    border-color: #9086d2;
+    border-width: 2px;
+}
+
+/* Sections  */
+
+.assignment, .workExp, .project, .more {
+    background-color: #f5f8fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Quicksand, sans-serif;
+    font-size: 20px;
+}
+
+/* Links */
+
+a {
+    font-size: 20px;
+}
+
+.links:link {
+    color: rgb(230, 172, 74);
+}
+
+.links:visited {
+    color:orchid;
+}
+
+.links:hover {
+    color: lightblue;
+}
+
+/* Contect Page */
+
+.contact-section {
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+    margin-bottom: 15px;
+}
+
+.contact-icon {
+    margin-right: 15px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.contact-item a {
+    font-size: 18px;
+    color: rgb(230, 172, 74);
+    padding: 20px;
+}
+
+.contact-item a:hover {
+    color: lightblue;
+}
+.contact-item a:visited {
+    color:orchid;
+}
+
+/* Assignment and Project Links */
+
+.projectLinks, .assignmentLinks {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(230, 172, 74);
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.projectLinks:hover, .assignmentLinks:hover {
+    background-color: lightblue;
+    
+}
+
+.projectLinks:visited, .assignmentLinks:visited {
+    background-color: orchid;
+}
