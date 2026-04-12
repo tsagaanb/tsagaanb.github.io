@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #571621; 
+    background-color: #8a0b0b; 
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -33,12 +33,12 @@ header {
 }
 
 h1, h2, h4 {
-    color: #571621;
+    color: #8a0b0b;
     font-family: Quicksand, sans-serif;
 }
 
 p {
-    color:#571621;
+    color:#8a0b0b;
     font-size: 20px;
     font-family: Quicksand, sans-serif;
 }
@@ -48,7 +48,7 @@ div {
 }
 
 li {
-    color:#571621;
+    color:#8a0b0b;
     font-size: 20px;
     font-family: Quicksand, sans-serif;
     margin: 20px;
@@ -83,7 +83,7 @@ nav ul li a:hover {
 /* Intro Page */
 
 .introtext {
-    color:#571621;
+    color:#8a0b0b;
     font-size: 20px;
     font-family: Quicksand, sans-serif;
     padding: 40px;
@@ -95,7 +95,7 @@ table, tr, td, th {
 
 img {
     border-style: dashed;
-    border-color: #571621;
+    border-color: #8a0b0b;
     border-width: 2px;
 }
 
